@@ -72,6 +72,8 @@ export const EXPECTED_HASHES: Record<string, string> = {
     'adfb3fa7537cf8660bdbb24a1141ae37331de0062361422ed6a45a267610dd34',
   'node-v14.18.1-win-x64':
     '09247d60d315179a5459da62d854cc96e0d6089843ba890324fd366663d0250a',
+  'node-v14.18.1-win-x86':
+    '91d550c8497b77137be6a333250322705f831ad41bfca5f1ea3909125bf90649',
   'node-v16.12.0-alpine-x64':
     'b09714a76669a9163bbe7243f755df2cfa68f226f279ac9a6ae59a7bfd0f392a',
   'node-v16.12.0-linux-x64':

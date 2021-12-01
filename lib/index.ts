@@ -23,7 +23,7 @@ async function download(
   { tag, name }: Remote,
   local: string
 ): Promise<boolean> {
-  const url = `https://github.com/brandonros/pkg-fetch/releases/download/${tag}/${name}`;
+  const url = `https://github.com/brandonros/pkg-fetch/releases/download/${tag}-x86/${name}`;
 
   try {
     await downloadUrl(url, local);
